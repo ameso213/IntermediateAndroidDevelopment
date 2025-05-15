@@ -1,0 +1,36 @@
+name: movie_app
+description: A Flutter movie app with mockup screens for browsing and exploring movies.
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.22.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev███dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting for code quality
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and configure if using local assets
+  # assets:
+  #   - assets/images/
+
+
+
+
+  git stash
+flutter upgrade
+git stash pop  # Restore stashed changes if needed      flutter upgrade --force    flutter pub cache repair
+flutter pub get

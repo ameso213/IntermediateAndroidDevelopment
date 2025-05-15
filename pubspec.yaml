@@ -30,7 +30,9 @@ flutter:
 
 
 
-  git stash
-flutter upgrade
-git stash pop  # Restore stashed changes if needed      flutter upgrade --force    flutter pub cache repair
-flutter pub get
+#   git stash
+# flutter upgrade
+# git stash pop  # Restore stashed changes if needed      flutter upgrade --force    flutter pub cache repair
+# flutter pub get    cd C:\Users\SHAMIE\Downloads\flutter_windows_3.27.1-stable\flutter
+# git clean -fdx
+# git reset --hard

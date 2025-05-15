@@ -1,28 +1,28 @@
-import 'package:app/screens/MockupScreenOne.dart';
+import 'package:movieapp/screen_one.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MovieApp());
+  runApp(const MyApp());
 }
 
-class MovieApp extends StatelessWidget {
-  const MovieApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Movie App',
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        scaffoldBackgroundColor: Colors.white,
-        elevatedButtonTheme: ElevatedButtonThemeData(
-          style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.blue,
-            foregroundColor: Colors.white,
-          ),
-        ),
       ),
-      home: const MockupScreenOne(title: 'MockupScreens',),
+      //home: Mockupscreenone(),
+      home: Mockupscreenone(),
+
+      
+      
+
     );
   }
 }
+
